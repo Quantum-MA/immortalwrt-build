@@ -1,0 +1,16 @@
+CONFIG_TARGET_mediatek=y
+CONFIG_TARGET_mediatek_filogic=y
+
+CONFIG_PACKAGE_uqmi=y
+CONFIG_PACKAGE_luci-proto-qmi=y
+CONFIG_PACKAGE_kmod-usb-net-qmi-wwan=y
+CONFIG_PACKAGE_kmod-usb-wdm=y
+
+CONFIG_PACKAGE_parted=y
+CONFIG_PACKAGE_resize2fs=y
+
+CONFIG_PACKAGE_kmod-hwmon-pwmfan=y
+CONFIG_PACKAGE_fancontrol=y
+
+CONFIG_PACKAGE_luci=y
+CONFIG_PACKAGE_opkg=y
